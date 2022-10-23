@@ -39,15 +39,19 @@
         echo("<br>");//break tag
         echo ($phrase1[4]);//4th index of the string
         echo("<br>");//break tag
-        str_replace("String","Aarya",$phrase1)
+        str_replace("String","Aarya",$phrase1);
 
         // Working with Numbers
         echo(5+9);//Addition
+        echo "<br>";
         echo(5-9);//Subtraction
+        echo "<br>";
         echo(5*9);//Multiplication
+        echo "<br>";
         echo(5/9);//Division
+        echo "<br>";
         echo(10%3);//Modulus
-        
         ?>
+    
 </body>
 </html>
