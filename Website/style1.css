@@ -241,6 +241,7 @@
 #banner2{
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
 }
 .ban{
     background-image: url("banner/b2a.webp");
