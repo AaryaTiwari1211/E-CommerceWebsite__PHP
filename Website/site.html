@@ -6,63 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>E-Commerce Website</title>
     <link rel="stylesheet" href="style1.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <section id="header">
-        <nav class="navbar navbar-expand-sm justify-content-center">
-        <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="img/logo.png" class="logo"></a>
-        <div>
-            
-            <ul id="navbar1-nav">
-                <li class=""><a href="home.html">Home</a></li>
-                <li><a href="top-selling.html">Top-Selling</a></li>
-                <li><a href="allproducts.html">All Products</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="cart.html"><img class="carticon" src="img/cart.png"></a></li>
-            </ul>
-        </nav>
-        </div>
+<section id="header">
+    <div class="navbar navbar-expand-lg bg-warning">
+    <a class="navbar-brand" href="#">Ahaya</a>
+    <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    <ul class="navbar-nav m-sm-auto">
+        <li class="nav-item m-sm-2"><a class="nav-link" href="home.html">Home</a></li>
+        <li class="nav-item m-sm-2"><a class="nav-link" href="top-selling.html">Top-Selling</a></li>
+        <li class="nav-item m-sm-2"><a class="nav-link" href="allproducts.html">All Products</a></li>
+        <li class="nav-item m-sm-2"><a class="nav-link" href="aboutus.html">About Us</a></li>
+        <li class="nav-item m-sm-2"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item m-sm-2"><a class="nav-link" href="cart.html">Cart</a></li>
+    </ul>
+    </nav>
     </div>
-    </section>
-    <section id="hero">
-        <div class="text1">
-            <h4>Trade in offers</h4>
-            <h2>SUPER VALUE DEALS!!</h2>
-            <h1>ON ALL PRODUCTS</h1>
-            <p>Save upto 70% on limited stock products</p>
-            <button id="b2">SHOP NOW!!</button>
+    </div>
+</section>
+<section id="hero">
+    <img src="img/hero.jpg" class="img-fluid max-width: 100%  height: auto">
+    <div class="text1">
+        <h4>Trade in offers</h4>
+        <h2>SUPER VALUE DEALS!!</h2>
+        <h1>ON ALL PRODUCTS</h1>
+        <p>Save upto 70% on limited stock products</p>
+        <button id="b2">SHOP NOW!!</button>
         </div>
     </section>
     <section id="feature">
-        <div class="fe-box">
-            <img src="img/shipping.jpg" class="center">
-            <h6 id="h6a">Free Shipping Across 70+ States</h6>
+        <div class="row align-items-start">
+        <div class="col-lg-3 col-md-4 col-sm-5">
+            <img src="img/shipping.jpg" class="img-thumbnail rounded" id="img1">
+            <div class="text-bottom">
+                <h6 id="h6a">Free Shipping Across 70+ States</h6>
+            </div>
         </div>
-        <div class="online-order">
-            <img src="img/online-order.jpg" class="center">
-            <h6 id="h6b">Online Orders Accepted</h6>
+        <div class="col-lg-3 col-md-4 col-sm-5">
+            <img src="img/online-order.jpg" class="img-thumbnail rounded" id="img1">
+            <div class="text-bottom">
+                <h6 id="h6a">Free Shipping Across 70+ States</h6>
+            </div>
         </div>
-        <div class="save-money">
-            <img src="img/save-money.jpg" class="center">
+        <div class="col-lg-3 col-md-4 col-sm-5">
+            <img src="img/save-money.jpg" class="img-thumbnail rounded" id="img1">
             <br>
-            <h6 id="h6c">Save money through offers and discounts!!</h6>
+            <div class="text-bottom">
+                <h6 id="h6a">Free Shipping Across 70+ States</h6>
+            </div>
         </div>
-        <div class="promotions">
-            <img src="img/promotion.jpg" class="center">
-            <h6 id="h6d">Promotions at affordable prices!!</h6>
+        <div class="col-lg-3 col-md-4 col-sm-5">
+            <img src="img/promotion.jpg" class="img-thumbnail rounded" id="img1">
+            <div class="text-bottom">
+                <h6 id="h6a">Free Shipping Across 70+ States</h6>
+            </div>
         </div>
-        <div class="sell">
-            <img src="img/sell.png" class="center">
-            <h6 id="h6e">Sell your items at reasonable prices!!</h6>
+        <div class="col-lg-3 col-md-4 col-sm-5">
+            <img src="img/sell.png" class="img-thumbnail rounded" id="img1">
+            <div class="text-bottom">
+                <h6 id="h6a">Free Shipping Across 70+ States</h6>
+            </div>
         </div>
-        <div class="support">
-            <img src="img/support.jpg" class="center">
-            <h6 id="h6f">24/7 Customer Support</h6>
+        <div class="col-lg-3 col-md-4 col-sm-5">
+            <img src="img/support.jpg" class="img-thumbnail rounded" id="img1">
+            <div class="text-">
+                <h6 id="h6a">Free Shipping Across 70+ States</h6>
+            </div>
         </div>
+    </div>
     </section>
     <section id="fe-products" class="section-p1">
         <h2>Featured Products</h2>
@@ -219,8 +237,6 @@
     <section id="footer">
         
     </section>
-    <script src="script.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
