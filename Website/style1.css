@@ -282,4 +282,7 @@
     width: 200px;
     height: 200px;
 }
-
+.maintxt {
+    background-image: url(banner/hero.webp);
+    background-size: cover;
+}
